@@ -103,12 +103,13 @@ body {
 .image img {
     width: 100%; /* Makes sure image is responsive */
     max-width: 400px; /* Adjust size as needed */
-    border-radius:85%; /* Optional: Adds rounded corners */
+    border-radius:15%; /* Optional: Adds rounded corners */
     border:10px solid #27005D;
     overflow: hidden;
+    height: 500px;
 }
 .image img {
-    border-radius: 85%;
+    border-radius: 15%;
     box-shadow: 0 0 10px rgba(0, 0, 139, 0.6),   /* Dark blue */
                 0 0 20px rgba(0, 0, 205, 0.5),   /* Medium blue */
                 0 0 40px rgba(0, 191, 255, 0.4), /* Neon blue */
@@ -132,6 +133,8 @@ body {
 
 .home-content .para{
     font-weight: 800;
+    font-family: Dancing Script;
+
 }
 .para .btech{
     font-weight: bolder;
@@ -166,7 +169,7 @@ body {
     gap: 2em;
 }
 .btn-1{
-    padding: 15px 20px;
+    padding: 15px 50px;
     background-color: black;
     color:white;
     border:2px solid transparent;
@@ -202,6 +205,7 @@ body {
     /* background-color: rgba(244, 173, 200, 0.786); */
     background: linear-gradient(to top, #27005D 10%, rgba(248, 173, 500, 0.786) 100%);
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 10em;
     padding-top:5em;
@@ -225,6 +229,17 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.knowledge{
+    text-align: left;
+    font-size: 30px;
+}
+
+.kno{
+    font-family: Dancing Script;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
 .container img{
     width: 300px;
